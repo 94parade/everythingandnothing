@@ -130,12 +130,12 @@ def build():
       background: var(--board);
       /* Feather the photo's outer edge into the board colour so no page rectangle shows */
       -webkit-mask-image:
-        linear-gradient(to right, transparent 0, #000 3%, #000 97%, transparent 100%),
-        linear-gradient(to bottom, transparent 0, #000 2.5%, #000 97.5%, transparent 100%);
+        linear-gradient(to right, transparent 0, #000 1.5%, #000 98.5%, transparent 100%),
+        linear-gradient(to bottom, transparent 0, #000 1.5%, #000 98.5%, transparent 100%);
       -webkit-mask-composite: source-in;
       mask-image:
-        linear-gradient(to right, transparent 0, #000 3%, #000 97%, transparent 100%),
-        linear-gradient(to bottom, transparent 0, #000 2.5%, #000 97.5%, transparent 100%);
+        linear-gradient(to right, transparent 0, #000 1.5%, #000 98.5%, transparent 100%),
+        linear-gradient(to bottom, transparent 0, #000 1.5%, #000 98.5%, transparent 100%);
       mask-composite: intersect;
     }}
     .page.small {{ width: min(60%, 480px); margin: 4vh auto 8vh; }}
