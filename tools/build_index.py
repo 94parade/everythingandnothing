@@ -101,6 +101,10 @@ def build():
   <meta name="description" content="{html.escape(TITLE)}, a picture book by {AUTHOR}.">
   <meta name="theme-color" content="{BOARD}">
   <meta name="color-scheme" content="light">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="canonical" href="https://www.everythingandnothing.space/">
   <meta property="og:type" content="book">
   <meta property="og:title" content="{html.escape(TITLE)}">
